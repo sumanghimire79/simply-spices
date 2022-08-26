@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:wght@100&display=swap');
+
+.product-list-pages {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-lists {
+  list-style: none;
+  background-color: #403b37;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  flex-direction: row;
+  padding: 5em;
+  margin: 0 auto;
+  gap: 4em;
+}
+
+.list-page-number {
+  background-color: #403b37;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
+}
+
+.list-page-number button {
+  background-color: #403b37;
+  border: none;
+}
+
+.current-page-number {
+  background-color: #382f2e;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 1em;
+  font-size: x-large;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.page-number {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 1em;
+  font-size: x-large;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.arrow-icon {
+  cursor: pointer;
+  padding: 1em;
+}
+
+@media screen and (max-width: 857px) {
+  .product-lists {
+    width: 100%;
+    padding: 2em;
+    gap: 2em;
+  }
+
+  .list-page-number {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .product-lists {
+    width: 90%;
+  }
+}

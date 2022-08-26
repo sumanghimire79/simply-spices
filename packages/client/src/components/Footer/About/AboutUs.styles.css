@@ -1,0 +1,58 @@
+.corporate-info {
+  background-color: #ffffff05;
+  box-sizing: border-box;
+  width: 22%;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.corporate-info .text-big {
+  display: block;
+  padding-top: 2rem;
+  font-size: 1rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: semibold;
+  line-height: 1rem;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.corporate-info .text-small {
+  display: block;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1225px) {
+  .corporate-info .text-small {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .corporate-info {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 18%;
+  }
+
+  .corporate-info .text-big,
+  .corporate-info .text-small {
+    text-align: left;
+  }
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:wght@100&display=swap');
+
+.right-container-container {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  padding: 0.7rem;
+  justify-content: space-evenly;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  align-items: center;
+  margin: 0 auto;
+}
+
+div {
+  color: white;
+}
+
+.input-container {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  width: 100%;
+  color: white;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.input-container:focus:valid {
+  box-shadow: none;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom: hidden;
+  outline: none;
+}
+
+.input-container::placeholder {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 2rem;
+  color: white;
+}
+
+.text > span {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 2rem;
+  color: white;
+}
+
+.search-container {
+  width: 32%;
+  color: white;
+  border-bottom: 3px solid white;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1225px) {
+  .text > span {
+    padding-top: 1rem;
+  }
+
+  .search-container {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text > span {
+    font-size: 1rem;
+    padding-top: 0.3rem;
+    padding-right: 0.1rem;
+  }
+
+  .input-container::placeholder {
+    font-size: 1.125rem;
+  }
+
+  .input-container {
+    font-size: 1.25rem;
+  }
+
+  .search-container {
+    width: 38%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text > span {
+    font-size: 0.8rem;
+  }
+
+  .input-container::placeholder {
+    font-size: 1rem;
+  }
+
+  .input-container {
+    font-size: 1rem;
+  }
+
+  .search-container {
+    width: 33%;
+    margin-bottom: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

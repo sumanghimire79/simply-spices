@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@100&display=swap');
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+.signup-container {
+  mix-blend-mode: normal;
+  width: 60%;
+  margin: 0 auto;
+  font-size: inherit;
+}
+
+#signup-form {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 2%;
+  align-items: flex-end;
+}
+
+.signup-wrapper-outer {
+  width: 100%;
+  background: linear-gradient(180deg, #696560 0%, #231c16bf 100%);
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.signup-wrapper {
+  background: linear-gradient(180deg, #231c16 0%, #231c16bf 100%);
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  width: 90%;
+  padding: 1rem;
+}
+
+.signup-form-row {
+  display: flex;
+  padding: 0.2em;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.signup-label {
+  flex: 1;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: right;
+  text-align: right;
+  color: white;
+}
+
+.signup-required-star {
+  color: #f00;
+}
+
+.all-input-provided-button {
+  background: #53742a;
+  border: 1px solid #fff;
+  width: 15rem;
+}
+
+.all-input-notprovided-button {
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+  background: #191818;
+  color: #fff;
+  width: 15rem;
+  border: 1px solid #fff;
+}
+
+#delivery {
+  color: white;
+}
+
+button {
+  padding: 0.4rem 1rem;
+  background: rgb(25 24 24);
+  color: #fff;
+  border: 0.1rem solid white;
+  width: 5rem;
+  align-items: flex-end;
+}
+
+.signup-input {
+  width: 50%;
+  text-align: left;
+}
+
+.signup-input-wrong {
+  width: 50%;
+  text-align: left;
+  border: 0.2rem solid red;
+}
+
+.signup-error-span {
+  display: flex;
+  flex-direction: column;
+  color: #f00;
+  font-size: small;
+  font-family: Montserrat, sans-serif;
+  justify-content: right;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.signup-success-msg {
+  color: #036803;
+}
+
+@media screen and (max-width: 1225px) {
+  .signup-container {
+    width: 800px;
+  }
+
+  * {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .signup-container {
+    background-color: #231c16;
+    width: 400px;
+  }
+
+  .signup-form-row {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    height: 2.5rem;
+  }
+
+  .signup-label {
+    visibility: hidden;
+  }
+
+  .signup-input {
+    width: 90%;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .signup-input-wrong {
+    width: 90%;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 0.1rem solid red;
+  }
+
+  .signup-error-span {
+    color: #f00;
+    font-size: x-small;
+    align-items: flex-start;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  button {
+    background: rgb(25 24 24);
+    color: #fff;
+    border: 0.1rem solid #fff;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

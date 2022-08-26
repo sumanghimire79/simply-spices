@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:wght@100&display=swap');
+
+.whole-footer-container {
+  background: #231c1699;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0;
+  min-width: 100vw;
+  box-sizing: border-box;
+}
+
+.footer-up-background,
+.footer-down-background {
+  width: 100vw;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.footer-up-background {
+  background: rgb(40 28 22/ 100%);
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.footer-down-background {
+  background: rgb(40 28 22/ 90%);
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.footer-up-container {
+  background: rgb(40 28 22/ 90%);
+  width: 1190px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.footer-down-container {
+  width: 1190px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  margin: 0 auto;
+  height: 2.5rem;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 0.5rem 0 0;
+  align-items: center;
+}
+
+@media screen and (max-width: 1225px) {
+  .footer-up-container,
+  .footer-down-container {
+    width: 700px;
+  }
+
+  .simply-spices {
+    font-size: 1.5rem;
+  }
+
+  .footer-down-container p {
+    font-size: 0.85rem;
+  }
+
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer-up-container,
+  .footer-down-container {
+    width: 70%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .footer-up-container {
+    flex-direction: column;
+  }
+
+  .footer-down-container {
+    padding-right: 15%;
+  }
+
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+}

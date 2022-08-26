@@ -1,0 +1,39 @@
+.about-us-page-container {
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  color: rgb(255 255 255);
+  background-image: url(' ../../../public/assets/images/hero_image.png');
+  padding-top: 2.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.main-slogan-vector-style {
+  width: 30%;
+  justify-content: center;
+  position: relative;
+  right: 0.5rem;
+}
+
+.simple-spices-heading {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1.8rem;
+}
+
+.about-us-description {
+  margin: 0 127px;
+  font-size: 1px;
+  font-weight: 400;
+}
+
+.shop-btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+}
+@media screen and (max-width: 550px) {
+  .about-us-page-container {
+    width: 100%;
+  }
+}

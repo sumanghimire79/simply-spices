@@ -1,0 +1,40 @@
+.google-map {
+  width: 22%;
+  background-color: #ffffff05;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.google-map iframe {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1225px) {
+  .google-map iframe {
+    width: 100%;
+  }
+
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .google-map {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .google-map iframe {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .google-map iframe {
+    width: 80%;
+  }
+}

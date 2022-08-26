@@ -1,0 +1,59 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  background-color: #867572;
+  height: 2.3125rem;
+  width: 4.938rem;
+  border: 0.05rem solid #fff;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.decrement-quantity-button {
+  width: 0.875rem;
+  height: 1.438rem;
+  left: 63.563rem;
+  top: 52.375rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938rem;
+  line-height: 1.125rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0.125rem 0.125rem 0.25rem #231016;
+  margin-top: 0.313rem;
+}
+
+.quantity-button {
+  width: 1.438rem;
+  height: 1.438rem;
+  left: 6.438rem;
+  top: 52.375rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938rem;
+  line-height: 1.125rem;
+  text-align: center;
+  color: #fff;
+  mix-blend-mode: normal;
+  text-shadow: 0.125rem 0.125rem 0.25rem #231016;
+  margin-top: 0.313rem;
+}
+
+.increment-quantity-button {
+  width: 1.938rem;
+  height: 1.438rem;
+  left: 66.063rem;
+  top: 52.375rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.938rem;
+  line-height: 1.125rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0.125rem 0.125rem 0.25rem #231016;
+  margin-top: 0.313rem;
+}

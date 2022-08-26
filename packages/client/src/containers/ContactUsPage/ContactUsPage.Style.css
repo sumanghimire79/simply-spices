@@ -1,0 +1,11 @@
+.contact-us-page-container {
+  background-image: url('../../../public/assets/images/hero_image.png');
+  mix-blend-mode: normal;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 1rem 0;
+  background-position: top;
+  text-align: center;
+  color: rgb(255 255 255);
+  min-height: 100vh;
+}

@@ -1,0 +1,111 @@
+.modal-whole-container {
+  background: linear-gradient(180deg, #231c16 0%, rgba(35 28 22 / 75%));
+}
+
+.modal-container {
+  width: 1190px;
+  margin: 0 auto;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  background-color: #231c16;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.5rem 0.313rem rgb(35 16 22 / 100%);
+  border-width: 1.75rem 2.25rem 1.25rem;
+  border-color: #4a443f;
+  border-style: solid;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+.cancel-butt-container {
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+}
+
+.cancel-button {
+  height: 2.18rem;
+  width: 2.825rem;
+  margin-left: 1.1rem;
+}
+
+.product-title {
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.524rem;
+  text-align: center;
+  offset: 0.125rem, 0.125rem #231016;
+}
+
+.product-image-modal {
+  text-align: center;
+}
+
+.product-image-modal img {
+  height: 7.5rem;
+  width: 7.5rem;
+  left: 56.25rem;
+  top: 31.688rem;
+  border-radius: 18.75rem;
+  margin: 0.5rem auto;
+}
+
+.count-item {
+  color: red;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.continue-shopping-button {
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 1225px) {
+  .modal-container {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .modal-container {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 0.85rem;
+    box-shadow: 0 0 0.5rem 0.313rem rgb(35 16 22 / 100%);
+  }
+
+  .modal-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
+  }
+
+  .cancel-butt-container {
+    padding-left: 20rem;
+  }
+
+  .product-title {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .continue-shopping-button {
+    margin-left: 2rem;
+  }
+}
