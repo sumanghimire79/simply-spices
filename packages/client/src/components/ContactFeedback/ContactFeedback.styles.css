@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@400;500&display=swap');
+
+.feedback-message-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1190px;
+  height: 100%;
+  background: rgba(35 28 22 / 90%);
+  mix-blend-mode: normal;
+  margin: 0 auto;
+}
+
+.heading-section {
+  text-align: center;
+}
+
+.heading-section > img {
+  width: 60%;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.simple-spices-heading-feedback {
+  font-style: normal;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4.5rem;
+  letter-spacing: -0.02em;
+  color: rgba(255 255 255 / 80%);
+  margin-top: 1.4rem;
+  margin-bottom: 0.2rem;
+  font-weight: 100;
+}
+
+.main-slogan-vector-style {
+  width: 40%;
+}
+
+.feedback-message {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  width: 50%;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+  margin: auto;
+  color: #fff;
+}
+
+.feedback-message p {
+  text-align: center;
+}
+
+.thank-you {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1225px) {
+  .feedback-message-section {
+    width: 800px;
+  }
+
+  * {
+    font-size: 1rem;
+  }
+
+  .heading-section > img {
+    width: 50%;
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .feedback-message-section {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .simple-spices-heading-feedback {
+    font-size: 4rem;
+  }
+
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  * {
+    font-size: 0.5rem;
+  }
+
+  .heading-section > img {
+    width: 40%;
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .feedback-message-section {
+    width: 90%;
+  }
+
+  .simple-spices-heading-feedback {
+    font-size: 2rem;
+  }
+
+  .heading-section > img {
+    width: 40%;
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page-header {
+  background: url('../../../public/assets/images/hero_image.png');
+  background-size: cover;
+  min-height: fit-content;
+  color: antiquewhite;
+  padding: 3em;
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Work+Sans:wght@100&display=swap');
+
+.sort-by-component-background {
+  background: linear-gradient(180deg, #231c16 0%, rgb(35 28 22 / 75%) 100%);
+  display: flex;
+  width: 100vw;
+}
+
+.sort-by-component-info {
+  width: 1190px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.sort-by-container {
+  margin-top: 1rem;
+  display: grid;
+  place-items: end;
+}
+
+.text-samll-sort-by {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0;
+  text-align: center;
+  display: block;
+}
+
+.text-big-sort-by {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 5rem;
+  letter-spacing: 0;
+  text-align: center;
+  display: block;
+}
+
+.sort-by-select {
+  z-index: 99;
+}
+
+.select-sort-by {
+  appearance: none;
+  background: linear-gradient(180deg, #231c16 0%, rgb(35 28 22 / 75%) 100%);
+  color: white;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 70%;
+  border: none;
+  margin-right: 2rem;
+  padding: 0.25rem;
+  padding-right: 1.55rem;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.select-sort-by option {
+  font-weight: 400;
+  background-color: #231c16;
+  font-size: 1.125rem;
+}
+
+@media screen and (max-width: 1225px) {
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  .sort-by-component-info {
+    width: 800px;
+  }
+
+  .select-sort-by {
+    background-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  .sort-by-component-info {
+    width: 400px;
+  }
+
+  .text-big-sort-by {
+    font-size: 2.5rem;
+  }
+
+  .text-samll-sort-by {
+    font-size: 1.25rem;
+  }
+
+  .select-sort-by {
+    font-size: 1rem;
+    background-size: 1.25rem;
+  }
+
+  .select-sort-by option {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  .category-middle-main-container {
+    width: 375px;
+  }
+
+  .landing-sort-by-component-info {
+    width: 375px;
+  }
+
+  .text-big-sort-by {
+    font-size: 2rem;
+  }
+
+  .text-samll-sort-by {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .sort-by-component-info > span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .select-sort-by {
+    font-size: 0.8rem;
+    background-size: 1.125rem;
+  }
+
+  .select-sort-by option {
+    font-size: 0.8rem;
+  }
+}

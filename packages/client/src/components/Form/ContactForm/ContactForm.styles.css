@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@100&display=swap');
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 1190px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem 0 4em;
+  background: #231c16e5;
+  mix-blend-mode: normal;
+  color: #fff;
+  justify-content: center;
+}
+
+.contact-head {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.contact-head > img {
+  width: 70%;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.contact-form-simply-spices-text {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4.5rem;
+  letter-spacing: -0.02em;
+  color: rgba(255 255 255 / 80%);
+  margin-top: 1.4rem;
+  margin-bottom: 0.2rem;
+
+  /* transform: scale(2.2); */
+  font-weight: 100;
+}
+
+.wrapper-outer-contact-form {
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.wrapper-outer-contact-form p {
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
+}
+
+.wrapper-contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 0 0;
+  justify-content: flex-end;
+  gap: 0.4rem;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.2em;
+  gap: 1.5rem;
+  align-content: space-between;
+  width: 100%;
+}
+
+label {
+  flex: 1;
+  display: flex;
+  flex-shrink: 1;
+  justify-content: right;
+  text-align: right;
+}
+
+.required-star {
+  color: #f00;
+  padding-left: 0.2rem;
+}
+
+input,
+textarea {
+  width: 60%;
+  text-align: left;
+  padding: 0.2rem;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 0.2rem solid #53742a;
+}
+
+.success-msg {
+  color: #8cff00;
+}
+
+.contact-input-wrong {
+  border: 0.2rem solid #f00;
+}
+
+.contact-error-span {
+  display: flex;
+  flex-direction: column;
+  color: #f80000;
+  font-size: small;
+  font-family: Montserrat, sans-serif;
+  justify-content: right;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.normal-button {
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+  background: #191818;
+  color: #fff;
+  width: 15rem;
+  border: 1px solid #fff;
+}
+
+.ready-button {
+  background: #53742a;
+  padding: 0.4rem 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  width: 15rem;
+  border: 1px solid #fff;
+}
+
+.email-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1225px) {
+  .contact-form-container {
+    width: 800px;
+  }
+
+  * {
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+    font-size: small;
+  }
+
+  .contact-form-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .contact-form-simply-spices-text {
+    font-size: 4rem;
+  }
+
+  .contact-head > img {
+    width: 60%;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 0.5rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    text-align: left;
+    font-size: small;
+  }
+
+  label {
+    visibility: hidden;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .wrapper-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contact-error-span {
+    color: #f80000;
+    align-items: flex-start;
+    font-size: x-small;
+  }
+
+  .ready-button,
+  .normal-button {
+    height: 2.2rem;
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-form-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-form-simply-spices-text {
+    margin: 0 auto;
+    word-wrap: break-word;
+    font-size: 3rem;
+  }
+
+  .contact-head > img {
+    width: 50%;
+  }
+}

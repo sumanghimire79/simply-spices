@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:wght@400;500&display=swap');
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  width: 1190px;
+  margin: 0 auto;
+  height: 508px;
+  background: rgb(35 28 22 / 80%);
+  mix-blend-mode: normal;
+  justify-content: center;
+}
+
+.simple-spices-heading {
+  display: flex;
+  margin: 0 auto;
+  font-family: 'Fredericka the Great', cursive;
+  line-height: 1.5rem;
+  transform: scale(2.2);
+  font-weight: 100;
+  color: #fff;
+}
+
+.main-slogan-vector-style {
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem 0;
+  transform: scale(1.4);
+}
+
+.about-heading,
+.about-us-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  padding: 2rem 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+.about-us-description {
+  padding: 1.5rem 0 0;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1225px) {
+  .about-us-container {
+    width: 800px;
+  }
+
+  * {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about-us-container {
+    width: 400px;
+    margin: 0 auto;
+    height: 240px;
+  }
+
+  * {
+    font-size: 0.4rem;
+  }
+
+  .main-slogan-vector-style {
+    transform: scale(1.8);
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .about-us-container {
+    width: 100%;
+    height: auto;
+  }
+}
